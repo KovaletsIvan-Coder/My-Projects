@@ -1,0 +1,39 @@
+.img {
+  border: 2px black;
+  width: 700px;
+}
+.main_container {
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
+.bike_info_container {
+  max-width: 400px;
+  margin-left: 50px;
+}
+.wh_size_select {
+  margin-left: 5px;
+}
+.size_select {
+  margin-left: 5px;
+}
+.add_to_cart_btn {
+  background-color: #1a1a1a;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 100%;
+}
+.add_to_cart_btn:active {
+  background-color: #4b4b4b;
+}
+.size_form {
+  display: flex;
+  align-items: center;
+}
+select {
+  height: 20px;
+}
+.p_size {
+  margin-left: 20px;
+}

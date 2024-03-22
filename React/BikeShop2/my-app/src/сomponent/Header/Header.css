@@ -1,0 +1,18 @@
+.header {
+  background-color: #1a1a1a;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 1px #5c5858;
+}
+.logo {
+  font-size: 22px;
+  margin: 0 40px;
+  padding: 14px 0px;
+  color: white;
+  text-decoration: none;
+}
+@media screen and (max-width: 280px) {
+  .logo {
+    margin: 0px 15px;
+  }
+}

@@ -1,0 +1,12 @@
+.select_container {
+  display: flex;
+  justify-content: flex-end;
+  margin: 5px 148px 0px 0;
+}
+
+@media screen and (max-width: 280px) {
+  .select_container {
+    flex-direction: column;
+    margin: 0px;
+  }
+}

@@ -1,0 +1,9 @@
+.select {
+  cursor: pointer;
+}
+@media screen and (max-width: 280px) {
+  .select {
+    width: 50%;
+    margin: 3px 10px 10px 10px;
+  }
+}

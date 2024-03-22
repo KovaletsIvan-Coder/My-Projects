@@ -1,0 +1,11 @@
+.search_Input {
+  margin: 0 30px;
+  width: 344px;
+}
+
+@media screen and (max-width: 280px) {
+  .search_Input {
+    margin: 10px;
+    width: 90%;
+  }
+}

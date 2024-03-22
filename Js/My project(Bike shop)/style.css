@@ -1,0 +1,78 @@
+html{
+    font-family: sans-serif;
+
+}
+
+body{
+    margin: 0px;
+
+}
+
+header{
+    background-color: #1a1a1a;
+    color:honeydew;
+    position: sticky;
+    top: 0px;    
+
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 54px;
+    border-bottom: solid 1px #5c5858;
+
+}
+
+.logo{
+    font-size: 22px;
+    margin: 0 40px;
+}
+.header-info{
+    display: flex;
+    margin-right: 10px;
+}
+.header-info *{
+    margin-right: 30px;
+}
+.header-info *:hover{
+    color: #c7c5c5;
+    transition: all ease 0.2s;    
+}
+.choose-model{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 41px;
+}
+.model{
+    cursor: pointer;
+}
+
+.model:hover{
+    transition: all ease 0.2s;    
+    color: #c7c5c5;
+}
+.bike-container{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 500px 500px 500px 500px 500px;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.bike{
+    border: solid 1px #cccccc;
+    border-radius: 20px;
+    width: 500px;
+    height: 400px;
+}
+.img-bike{
+    width: 96%;
+    height: 63%;
+    padding: 10px;
+}
+.bike-info{
+    margin: 0px 28px;
+}

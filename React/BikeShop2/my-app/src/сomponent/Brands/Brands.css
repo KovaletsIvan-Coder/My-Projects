@@ -1,0 +1,54 @@
+.brands_nav_bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1a1a1a;
+  height: 41px;
+  padding: 0 80px;
+}
+.brands_link {
+  color: white;
+  text-decoration: none;
+}
+
+.brands_link:hover {
+  color: rgba(255, 255, 255, 0.69);
+}
+.active {
+  color: rgb(255, 153, 0);
+}
+
+.activeB {
+  color: blue;
+}
+.brands_nav_bar_small {
+  display: none;
+}
+
+@media screen and (max-width: 280px) {
+  .brands_nav_bar {
+    display: none;
+  }
+  .brands_nav_bar_small {
+    display: block;
+    background-color: #1a1a1a;
+  }
+  .brands_link_small {
+    color: white;
+    font-size: 14px;
+    padding: 5px 0px 2px 5px;
+    text-decoration: none;
+    display: block;
+  }
+  .brands {
+    line-height: 30px;
+    padding-left: 15px;
+    color: aliceblue;
+    height: 30px;
+    border-bottom: 1px solid #5c5858;
+  }
+  .link_container {
+    display: none;
+    /*  height: 150px; */
+  }
+}

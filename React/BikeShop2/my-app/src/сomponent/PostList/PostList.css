@@ -1,0 +1,19 @@
+.bike_not_found {
+  color: black;
+  text-align: center;
+  margin: 50px;
+}
+
+.bike_icons_container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-items: center;
+  align-items: center;
+  margin: 0 60px;
+}
+
+@media screen and (max-width: 280px) {
+  .bike_icons_container {
+    grid-template-columns: 100%;
+  }
+}

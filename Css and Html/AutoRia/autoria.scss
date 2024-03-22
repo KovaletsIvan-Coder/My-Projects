@@ -1,0 +1,191 @@
+body{
+    font-family: Arial,Helvetica,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.header-nav-up{
+    background-color: #f0f2fa;
+}
+.container-nav-up{
+    display: flex;
+    justify-content: center;
+}
+.nav-up{
+    display:flex;
+    align-items:center;
+    margin:0 auto;
+    height: 41px;
+    color: #414042;
+   
+    & .item {
+        font-size: 15px;
+        line-height: 37px;
+        display: inline-block;
+        padding: 0 10px;
+        text-decoration: none;
+        color: inherit;
+    }
+    & .item-flag{
+        display:flex;
+        align-items: center;
+        & svg{
+            margin-right: 5px;
+        }
+    }
+
+    & .item:nth-of-type(2){
+        border-top: 3px solid #db5c4c;
+    }
+
+    & a:hover{
+        text-decoration: underline;
+    }
+}
+.container-icon-nav-up{
+    display: flex;
+    align-items: center;
+    color: rgb(125, 126, 126);
+    margin-left: 98px;
+   
+    & .aicon{
+        padding: 5px 8px;
+        text-decoration: none;
+        display: inline-block;
+        color: inherit;
+    }
+
+    & .icon{
+     font-size: 19px;   
+    }
+}
+.office{
+    display: flex;
+    align-items: center;
+    height: 29px;
+    color:rgb(174, 175, 175);
+    padding: 5px 0px 5px 8px;
+    & .aicon-user{
+        color:inherit;
+    }
+    .icon-user{
+        font-size: 39px;
+    }
+
+    & .aicon-enter-the-office{
+        text-decoration: none;
+        font-size: 13px;
+        font-family: sans-serif;
+        color: #414042;
+        margin: 0px 0px 0px 8px;
+    }
+}
+.container-lover{
+    padding:7px 0 8px 0;
+    border-bottom:1px solid #f0f2fa;
+
+    & .nav-lover1{
+        margin:0 294px;
+    }
+
+    & .nav-lover{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+
+        & .fake-logo{
+            & img{
+                width: 160px;
+            }
+        }
+
+        & .a-center{
+            color:#414042;
+            padding:0 40px;
+            box-sizing:border-box;
+            padding:14px 72px 14px 25px;
+
+            & a{
+                color:inherit;
+                text-decoration:none;
+                font-size:18px;
+                border-bottom: 1px solid #414042;
+                margin:0 10px;
+            }
+        }
+    }
+}
+.sell-auto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#79be00;
+    color: #fff; 
+    min-width:220px;
+    line-height: 48px;
+    text-align:center;
+    font-size:18px;
+    border-radius:5px;
+    
+
+    & a{
+        display: flex;
+     text-decoration: none; 
+     color:inherit;  
+     border: none;  
+    }
+    
+    & .plusIcon{
+        height: 20px;
+        margin-right: 6px;
+        line-height: 13px;
+    }
+}
+.supportLink{
+    color:#256799;
+
+    & a{
+        display: flex;
+        font-size:18px;
+        text-decoration:none;
+        color:inherit;
+    }
+
+    & .supportLinkSwg{
+        margin-right: 10px;
+    }
+    
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 15px 0;
+
+    & .propertySelector{
+        width: 600px;
+        height: 221px;
+        background-color: #db5c4c;
+        border-radius: 0 0 0 12px;
+        padding: 15px;
+    }
+
+    & .pictureCar{
+        margin-left: 20px;
+
+        & img{
+            height: 250px;
+            width: 300px;
+        }
+    }
+}
+
+.conditionOfTheCar{
+    display: flex;
+
+    &.conditionOfTheCar > div{
+    padding: 10px;
+    border: 1px solid white;
+    }
+ }
+
